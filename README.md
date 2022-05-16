@@ -21,7 +21,7 @@
 ## ✔️ Come to try out the website
 
 <p align="center">
-  <a href="#" target="_blank">
+  <a href="https://snazzy-brigadeiros-0af1a4.netlify.app/" target="_blank">
     <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png">
   </a>
 </p>
