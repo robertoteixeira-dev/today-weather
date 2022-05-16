@@ -4,7 +4,7 @@
 <br>
 </h1>
 
-<p align="center">This project is a Weather App with API developed with React.JS</p>
+<p align="center">This project is a Weather App developed with React JS. I used the OpenWeather API to get the necessary data</p>
 
 <div align="center" >
   <img src='./gifs/Weather.gif' alt="portfolio" height="425">
@@ -31,8 +31,6 @@
 This project was developed with the following technologies:
 
 - ✔️ React.JS
-
-- ✔️ OpenWeather API
 
 ---
 
