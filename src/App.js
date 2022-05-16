@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=895284fb2d2c50a520ea537456963d9c`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=94fa3daf49768b4a323f1c9c47b73d2f`
 
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
@@ -28,12 +28,13 @@ function App() {
           type="text" />
       </div>
       <div className="container">
-        <div className="top">
+      <div className="top">
           <div className="location">
             <p>{data.name}</p>
+            {data.sys ? <p>{data.sys.country}</p> : null}
           </div>
           <div className="temp">
-            {data.main ? <h1>{data.main.temp.toFixed()}°F</h1> : null}
+            {data.main ? <h1>{data.main.temp.toFixed()}°C</h1> : null}
           </div>
           <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}
@@ -43,7 +44,7 @@ function App() {
         {data.name !== undefined &&
           <div className="bottom">
             <div className="feels">
-              {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°F</p> : null}
+              {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°C</p> : null}
               <p>Feels Like</p>
             </div>
             <div className="humidity">
@@ -62,6 +63,5 @@ function App() {
 }
 
 export default App;
-// npm i axios 
+// npm i axios
 // ApenWeathermap.org is the API that I'm gonna use
-
