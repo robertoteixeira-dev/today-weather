@@ -15,7 +15,7 @@
 ## 📲 Responsive Web Design
 
 <div align="center" >
-  <img src='./gifs/Weather.Responsive.gif' alt="responsive" height="425">
+  <img src='./gifs/Weather_Responsive.gif' alt="responsive" height="425">
 </div>
 
 ## ✔️ Come to try out the website
